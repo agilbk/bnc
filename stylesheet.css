@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(50, 135, 168);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+
+.form2 {
+    width: 30%;
+    height: 140%;
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    bottom: 20%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+}
+.form1 h1{
+    padding-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border-radius: 3px;
+}
+    
+.form2 input[type="text"],.form2 input[type="password"],.form2 input[type="number"],.form2 input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid rgb(12, 11, 11);
+    padding:10px 8px;
+    width: 220px;
+    outline: none;
+    color: rgb(12, 11, 11);
+    border-radius: 20px;
+    transition: 0.25px;
+}
+.form2 input[type="text"]:focus,.form2 input[type="password"]:focus,.form2 input[type="number"]:focus,.form2 input[type="email"]:focus{
+    width: 190px;
+    border-color: rgb(10, 9, 9);
+}
+.form2 input[type="submit"]{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    display:inline-table;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid rgb(10, 9, 9);
+    padding:14px 35px;
+    width: 150px;
+    outline: none;
+    color: rgb(248, 246, 246);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor:pointer;
+}

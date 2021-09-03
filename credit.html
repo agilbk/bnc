@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script text="text/javascript" src="transaction.js"></script>
+    <link rel="stylesheet" href="creaditdebit.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to BNC BANK</h1>
+        <ul class="nav-area">
+            <li><a href="homepg.html">HOME</a></li>
+            <li><a href="home.html">USERDASHBOARD</a></li>
+        </ul>
+    </header><!--main heading-->
+    
+    <div class="row">
+        <form method="POST" class="form2" name="credit" ><!-- form for cash withdrowing section-->
+            <div class="column1" align=center>
+                <h3>deposit</h3>
+<!--Account number-->                    
+                <label for="txtacno">Accno</label>
+                <input type="number" id="acno" name="txtacno" required><br>
+<!--ATM pin-->
+                <label for="wpin">ATM pin</label>
+                <input type="number" id="pin" name="wpin" required><br>
+<!--Amount-->
+                <label for="wamt">Amount</label>
+                <input type="number" id="amt" name="wamt" required><br>
+<!--submit button-->                   
+                <input type="submit" value="creadit" onclick="Bank.deposit()">
+            </div>
+        </form> 
+        
+    </div>
+</body>-
+</html>
